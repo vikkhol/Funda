@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180205 23:52:29.376" generator="Robot 3.0.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/sierra/PycharmProjects/Funda/Test/FundaEuropaSearch.robot" id="s1" name="FundaEuropaSearch">
+<test id="s1-t1" name="Europa_Search_Default_Values">
+<kw type="setup" name="Begin_Web_Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180205 23:52:29.525" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180205 23:52:31.451" starttime="20180205 23:52:29.525"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:31.453" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:52:31.869" starttime="20180205 23:52:31.453"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:52:33.871" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:52:33.871" starttime="20180205 23:52:31.869"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:33.872" starttime="20180205 23:52:31.452"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:33.872" starttime="20180205 23:52:29.524"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:33.873" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:52:35.408" starttime="20180205 23:52:33.873"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:52:37.410" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:52:37.411" starttime="20180205 23:52:35.409"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:37.411" starttime="20180205 23:52:33.872"></status>
+</kw>
+<kw name="Choose_Europa" library="SearchPage">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${europa}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:37.412" level="INFO">Clicking element 'link=Europa'.</msg>
+<status status="PASS" endtime="20180205 23:52:37.584" starttime="20180205 23:52:37.412"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:38.585" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:38.585" starttime="20180205 23:52:37.584"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:38.586" starttime="20180205 23:52:37.411"></status>
+</kw>
+<kw name="Click_Search" library="SearchPage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:39.589" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:39.589" starttime="20180205 23:52:38.587"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:39.589" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:52:40.725" starttime="20180205 23:52:39.589"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:41.726" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:41.727" starttime="20180205 23:52:40.726"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:41.728" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:52:41.813" starttime="20180205 23:52:41.727"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180205 23:52:44.815" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180205 23:52:44.815" starttime="20180205 23:52:41.814"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:44.815" starttime="20180205 23:52:38.586"></status>
+</kw>
+<kw name="Verify_valid_search" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>result</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:52:44.839" starttime="20180205 23:52:44.816"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:44.839" starttime="20180205 23:52:44.816"></status>
+</kw>
+<kw name="Verify_valid_search_europa" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>europese woningen</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:52:44.861" starttime="20180205 23:52:44.840"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:44.861" starttime="20180205 23:52:44.840"></status>
+</kw>
+<kw type="teardown" name="End_Web_Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180205 23:52:44.956" starttime="20180205 23:52:44.862"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:44.956" starttime="20180205 23:52:44.861"></status>
+</kw>
+<tags>
+<tag>test</tag>
+</tags>
+<status status="PASS" endtime="20180205 23:52:44.956" critical="yes" starttime="20180205 23:52:29.523"></status>
+</test>
+<test id="s1-t2" name="Europa_Search_All_Land">
+<kw type="setup" name="Begin_Web_Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180205 23:52:44.959" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180205 23:52:46.796" starttime="20180205 23:52:44.959"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:46.799" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:52:47.168" starttime="20180205 23:52:46.798"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:52:49.170" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:52:49.171" starttime="20180205 23:52:47.169"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:49.171" starttime="20180205 23:52:46.797"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:49.171" starttime="20180205 23:52:44.959"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:49.174" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:52:50.143" starttime="20180205 23:52:49.173"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:52:52.146" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:52:52.147" starttime="20180205 23:52:50.144"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:52.147" starttime="20180205 23:52:49.172"></status>
+</kw>
+<kw name="Choose_Europa" library="SearchPage">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${europa}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:52.148" level="INFO">Clicking element 'link=Europa'.</msg>
+<status status="PASS" endtime="20180205 23:52:52.339" starttime="20180205 23:52:52.148"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:53.342" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:53.343" starttime="20180205 23:52:52.340"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:53.343" starttime="20180205 23:52:52.147"></status>
+</kw>
+<kw name="Select_Land" library="SearchPage">
+<arguments>
+<arg>id=Land-heel-europa</arg>
+</arguments>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${land}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:53.345" level="INFO">Clicking element 'xpath=//form/div[1]/div/fieldset/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:52:53.561" starttime="20180205 23:52:53.344"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:54.562" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:54.562" starttime="20180205 23:52:53.561"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${arguments}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:54.563" level="INFO">Clicking element 'id=Land-heel-europa'.</msg>
+<status status="PASS" endtime="20180205 23:52:54.637" starttime="20180205 23:52:54.563"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:55.639" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:55.640" starttime="20180205 23:52:54.638"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:52:55.640" starttime="20180205 23:52:53.343"></status>
+</kw>
+<kw name="Click_Search" library="SearchPage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:56.643" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:56.644" starttime="20180205 23:52:55.641"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:56.644" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:52:57.719" starttime="20180205 23:52:56.644"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:52:58.721" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:52:58.722" starttime="20180205 23:52:57.719"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:52:58.722" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:52:58.809" starttime="20180205 23:52:58.722"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180205 23:53:01.810" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:01.810" starttime="20180205 23:52:58.809"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:01.810" starttime="20180205 23:52:55.641"></status>
+</kw>
+<kw name="Verify_valid_search" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>result</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:53:01.834" starttime="20180205 23:53:01.811"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:01.834" starttime="20180205 23:53:01.811"></status>
+</kw>
+<kw name="Verify_valid_search_europa" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>europese woningen</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:53:01.855" starttime="20180205 23:53:01.835"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:01.855" starttime="20180205 23:53:01.835"></status>
+</kw>
+<kw type="teardown" name="End_Web_Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180205 23:53:01.953" starttime="20180205 23:53:01.856"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:01.953" starttime="20180205 23:53:01.856"></status>
+</kw>
+<tags>
+<tag>test</tag>
+</tags>
+<status status="PASS" endtime="20180205 23:53:01.953" critical="yes" starttime="20180205 23:52:44.958"></status>
+</test>
+<test id="s1-t3" name="Europa_Search_Belgium">
+<kw type="setup" name="Begin_Web_Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180205 23:53:01.957" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180205 23:53:03.755" starttime="20180205 23:53:01.957"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:03.758" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:53:04.178" starttime="20180205 23:53:03.757"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:53:06.180" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:06.180" starttime="20180205 23:53:04.178"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:06.181" starttime="20180205 23:53:03.756"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:06.181" starttime="20180205 23:53:01.956"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:06.182" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:53:06.957" starttime="20180205 23:53:06.182"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:53:08.958" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:08.959" starttime="20180205 23:53:06.957"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:08.959" starttime="20180205 23:53:06.181"></status>
+</kw>
+<kw name="Choose_Europa" library="SearchPage">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${europa}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:08.961" level="INFO">Clicking element 'link=Europa'.</msg>
+<status status="PASS" endtime="20180205 23:53:09.145" starttime="20180205 23:53:08.960"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:10.146" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:10.146" starttime="20180205 23:53:09.145"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:10.147" starttime="20180205 23:53:08.960"></status>
+</kw>
+<kw name="Select_Land" library="SearchPage">
+<arguments>
+<arg>id=Land-belgie</arg>
+</arguments>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${land}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:10.148" level="INFO">Clicking element 'xpath=//form/div[1]/div/fieldset/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:10.340" starttime="20180205 23:53:10.148"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:11.342" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:11.343" starttime="20180205 23:53:10.341"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${arguments}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:11.344" level="INFO">Clicking element 'id=Land-belgie'.</msg>
+<status status="PASS" endtime="20180205 23:53:11.420" starttime="20180205 23:53:11.343"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:12.422" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:12.422" starttime="20180205 23:53:11.420"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:12.422" starttime="20180205 23:53:10.147"></status>
+</kw>
+<kw name="Click_Search" library="SearchPage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:13.426" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:13.426" starttime="20180205 23:53:12.423"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:13.427" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:14.529" starttime="20180205 23:53:13.426"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:15.531" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:15.531" starttime="20180205 23:53:14.529"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:15.532" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:15.619" starttime="20180205 23:53:15.532"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180205 23:53:18.622" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:18.622" starttime="20180205 23:53:15.620"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:18.622" starttime="20180205 23:53:12.423"></status>
+</kw>
+<kw name="Verify_valid_search" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>result</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:53:18.647" starttime="20180205 23:53:18.623"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:18.647" starttime="20180205 23:53:18.623"></status>
+</kw>
+<kw name="Verify_valid_search_europa" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>europese woningen</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:53:18.667" starttime="20180205 23:53:18.648"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:18.668" starttime="20180205 23:53:18.647"></status>
+</kw>
+<kw type="teardown" name="End_Web_Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180205 23:53:18.766" starttime="20180205 23:53:18.669"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:18.766" starttime="20180205 23:53:18.668"></status>
+</kw>
+<tags>
+<tag>test</tag>
+</tags>
+<status status="PASS" endtime="20180205 23:53:18.766" critical="yes" starttime="20180205 23:53:01.955"></status>
+</test>
+<test id="s1-t4" name="Europa_Search_Albanie">
+<kw type="setup" name="Begin_Web_Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180205 23:53:18.769" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180205 23:53:20.557" starttime="20180205 23:53:18.769"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:20.560" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:53:20.974" starttime="20180205 23:53:20.559"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:53:22.975" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:22.975" starttime="20180205 23:53:20.974"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:22.976" starttime="20180205 23:53:20.558"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:22.976" starttime="20180205 23:53:18.768"></status>
+</kw>
+<kw name="Load" library="SearchPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${LOGIN_P_URL}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:22.977" level="INFO">Opening url 'https://www.funda.nl/'</msg>
+<status status="PASS" endtime="20180205 23:53:23.833" starttime="20180205 23:53:22.977"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20180205 23:53:25.834" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:25.834" starttime="20180205 23:53:23.833"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:25.835" starttime="20180205 23:53:22.976"></status>
+</kw>
+<kw name="Choose_Europa" library="SearchPage">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${europa}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:25.836" level="INFO">Clicking element 'link=Europa'.</msg>
+<status status="PASS" endtime="20180205 23:53:26.030" starttime="20180205 23:53:25.836"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:27.031" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:27.031" starttime="20180205 23:53:26.030"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:27.032" starttime="20180205 23:53:25.835"></status>
+</kw>
+<kw name="Select_Land" library="SearchPage">
+<arguments>
+<arg>id=Land-albanie</arg>
+</arguments>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${land}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:27.034" level="INFO">Clicking element 'xpath=//form/div[1]/div/fieldset/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:27.196" starttime="20180205 23:53:27.033"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:28.197" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:28.197" starttime="20180205 23:53:27.196"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${arguments}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:28.198" level="INFO">Clicking element 'id=Land-albanie'.</msg>
+<status status="PASS" endtime="20180205 23:53:28.280" starttime="20180205 23:53:28.197"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:29.283" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:29.283" starttime="20180205 23:53:28.281"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:29.283" starttime="20180205 23:53:27.032"></status>
+</kw>
+<kw name="Click_Search" library="SearchPage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:30.287" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:30.287" starttime="20180205 23:53:29.285"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:30.288" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:31.111" starttime="20180205 23:53:30.287"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20180205 23:53:32.112" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20180205 23:53:32.112" starttime="20180205 23:53:31.111"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${search_button}</arg>
+</arguments>
+<msg timestamp="20180205 23:53:32.113" level="INFO">Clicking element 'xpath=//form/div[1]/div/div'.</msg>
+<status status="PASS" endtime="20180205 23:53:32.198" starttime="20180205 23:53:32.112"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20180205 23:53:35.200" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180205 23:53:35.200" starttime="20180205 23:53:32.198"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:35.200" starttime="20180205 23:53:29.284"></status>
+</kw>
+<kw name="Verify_0_resultaten_search" library="SearchResultsPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>0 resultaten</arg>
+</arguments>
+<status status="PASS" endtime="20180205 23:53:35.223" starttime="20180205 23:53:35.201"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:35.223" starttime="20180205 23:53:35.201"></status>
+</kw>
+<kw type="teardown" name="End_Web_Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180205 23:53:35.323" starttime="20180205 23:53:35.224"></status>
+</kw>
+<status status="PASS" endtime="20180205 23:53:35.323" starttime="20180205 23:53:35.224"></status>
+</kw>
+<tags>
+<tag>test</tag>
+</tags>
+<status status="PASS" endtime="20180205 23:53:35.323" critical="yes" starttime="20180205 23:53:18.767"></status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" endtime="20180205 23:53:35.325" starttime="20180205 23:52:29.381"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="4">test</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="FundaEuropaSearch" pass="4">FundaEuropaSearch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
